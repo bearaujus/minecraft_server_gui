@@ -532,7 +532,7 @@ public class AppStartUp extends javax.swing.JFrame {
         button_next_step3.setText("<html>Download File To Continue</html>");
         Thread x = new Thread(() -> {
             try {
-                URL url = new URL("https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar");
+                URL url = new URL("https://launcher.mojang.com/v1/objects/a412fd69db1f81db3f511c1463fd304675244077/server.jar");
                 URLConnection urlConnection = url.openConnection();
                 urlConnection.connect();
                 long file_size = urlConnection.getContentLength(); // dapetin file sizenya

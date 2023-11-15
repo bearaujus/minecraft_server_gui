@@ -52,6 +52,7 @@ public class ServerProperties {
         LIST_ENTITY_KEY.add("max-tick-time=");
         LIST_ENTITY_KEY.add("query.port=");
         LIST_ENTITY_KEY.add("generator-settings=");
+        LIST_ENTITY_KEY.add("sync-chunk-writes=");
         LIST_ENTITY_KEY.add("force-gamemode=");
         LIST_ENTITY_KEY.add("allow-nether=");
         LIST_ENTITY_KEY.add("enforce-whitelist=");
@@ -64,9 +65,11 @@ public class ServerProperties {
         LIST_ENTITY_KEY.add("broadcast-rcon-to-ops=");
         LIST_ENTITY_KEY.add("op-permission-level=");
         LIST_ENTITY_KEY.add("pvp=");
+        LIST_ENTITY_KEY.add("entity-broadcast-range-percentage=");
         LIST_ENTITY_KEY.add("snooper-enabled=");
         LIST_ENTITY_KEY.add("level-type=");
         LIST_ENTITY_KEY.add("hardcore=");
+        LIST_ENTITY_KEY.add("enable-status=");
         LIST_ENTITY_KEY.add("enable-command-block=");
         LIST_ENTITY_KEY.add("max-players=");
         LIST_ENTITY_KEY.add("network-compression-threshold=");
@@ -75,7 +78,6 @@ public class ServerProperties {
         LIST_ENTITY_KEY.add("function-permission-level=");
         LIST_ENTITY_KEY.add("rcon.port=");
         LIST_ENTITY_KEY.add("server-port=");
-        LIST_ENTITY_KEY.add("debug=");
         LIST_ENTITY_KEY.add("server-ip=");
         LIST_ENTITY_KEY.add("spawn-npcs=");
         LIST_ENTITY_KEY.add("allow-flight=");
@@ -91,6 +93,7 @@ public class ServerProperties {
         LIST_ENTITY_KEY.add("level-seed=");
         LIST_ENTITY_KEY.add("prevent-proxy-connections=");
         LIST_ENTITY_KEY.add("use-native-transport=");
+        LIST_ENTITY_KEY.add("enable-jmx-monitoring=");
         LIST_ENTITY_KEY.add("motd=");
         LIST_ENTITY_KEY.add("enable-rcon=");
         LIST_ENTITY_KEY.forEach((px) -> {
@@ -202,6 +205,7 @@ public class ServerProperties {
         LIST_ENTITY_PROPERTIES.replace("max-tick-time=", "60000");
         LIST_ENTITY_PROPERTIES.replace("query.port=", "25565");
         LIST_ENTITY_PROPERTIES.replace("generator-settings=", "");
+        LIST_ENTITY_PROPERTIES.replace("sync-chunk-writes=", "true");
         LIST_ENTITY_PROPERTIES.replace("force-gamemode=", "false");
         LIST_ENTITY_PROPERTIES.replace("allow-nether=", "true");
         LIST_ENTITY_PROPERTIES.replace("enforce-whitelist=", "false");
@@ -214,9 +218,11 @@ public class ServerProperties {
         LIST_ENTITY_PROPERTIES.replace("broadcast-rcon-to-ops=", "true");
         LIST_ENTITY_PROPERTIES.replace("op-permission-level=", "4");
         LIST_ENTITY_PROPERTIES.replace("pvp=", "true");
+        LIST_ENTITY_PROPERTIES.replace("entity-broadcast-range-percentage=", "100");
         LIST_ENTITY_PROPERTIES.replace("snooper-enabled=", "true");
         LIST_ENTITY_PROPERTIES.replace("level-type=", "default");
         LIST_ENTITY_PROPERTIES.replace("hardcore=", "false");
+        LIST_ENTITY_PROPERTIES.replace("enable-status=", "true");
         LIST_ENTITY_PROPERTIES.replace("enable-command-block=", "false");
         LIST_ENTITY_PROPERTIES.replace("max-players=", "20");
         LIST_ENTITY_PROPERTIES.replace("network-compression-threshold=", "256");
@@ -225,7 +231,6 @@ public class ServerProperties {
         LIST_ENTITY_PROPERTIES.replace("function-permission-level=", "2");
         LIST_ENTITY_PROPERTIES.replace("rcon.port=", "25575");
         LIST_ENTITY_PROPERTIES.replace("server-port=", "25565");
-        LIST_ENTITY_PROPERTIES.replace("debug=", "false");
         LIST_ENTITY_PROPERTIES.replace("server-ip=", "");
         LIST_ENTITY_PROPERTIES.replace("spawn-npcs=", "true");
         LIST_ENTITY_PROPERTIES.replace("allow-flight=", "false");
@@ -241,6 +246,7 @@ public class ServerProperties {
         LIST_ENTITY_PROPERTIES.replace("level-seed=", "");
         LIST_ENTITY_PROPERTIES.replace("prevent-proxy-connections=", "false");
         LIST_ENTITY_PROPERTIES.replace("use-native-transport=", "true");
+        LIST_ENTITY_PROPERTIES.replace("enable-jmx-monitoring=", "false");
         LIST_ENTITY_PROPERTIES.replace("motd=", "A Minecraft Server");
         LIST_ENTITY_PROPERTIES.replace("enable-rcon=", "false");
     }

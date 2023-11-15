@@ -755,7 +755,7 @@ public class AppMainFrame extends javax.swing.JFrame {
                         .addGroup(p_serverProperties_spLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(sp_l_hardcore)
                             .addComponent(sp_ch_hardcore))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 6, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(p_serverProperties_spLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(sp_b_save, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(sp_b_resetToDefaultSettings))
@@ -945,6 +945,7 @@ public class AppMainFrame extends javax.swing.JFrame {
 
         p_about_ab.setBackground(new java.awt.Color(48, 48, 48));
         p_about_ab.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "About", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI Semibold", 0, 12), new java.awt.Color(255, 255, 255))); // NOI18N
+        p_about_ab.setPreferredSize(new java.awt.Dimension(469, 384));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/src/serverOnline.gif"))); // NOI18N
 
@@ -1068,7 +1069,7 @@ public class AppMainFrame extends javax.swing.JFrame {
                             .addComponent(jLabel18, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jLabel16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jLabel13))
-                        .addGap(0, 80, Short.MAX_VALUE))
+                        .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(jLabel12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -1946,7 +1947,7 @@ public class AppMainFrame extends javax.swing.JFrame {
         smj_rb_fromExistingFile.setEnabled(false);
         smj_b_addJar.setText("Download");
         smj_rb_fromExistingLink.setSelected(true);
-        smj_t_fromExistingLink.setText("https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar");
+        smj_t_fromExistingLink.setText("https://launcher.mojang.com/v1/objects/a412fd69db1f81db3f511c1463fd304675244077/server.jar");
         smj_t_fromExistingLink.setCaretPosition(0);
         smj_t_fromExistingLink.setEditable(false);
         smj_b_addJar.setEnabled(true);
